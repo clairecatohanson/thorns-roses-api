@@ -1,0 +1,344 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "color": "Red",
+            "species": "Rose"
+        },
+        {
+            "id": 2,
+            "color": "Blue",
+            "species": "Lily"
+        },
+        {
+            "id": 3,
+            "color": "Yellow",
+            "species": "Sunflower"
+        },
+        {
+            "id": 4,
+            "color": "Purple",
+            "species": "Tulip"
+        },
+        {
+            "id": 5,
+            "color": "White",
+            "species": "Daisy"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Green Thumb Nursery"
+        },
+        {
+            "id": 2,
+            "name": "Blossom Haven"
+        },
+        {
+            "id": 3,
+            "name": "Floral Paradise"
+        },
+        {
+            "id": 4,
+            "name": "Bountiful Blooms Nursery"
+        },
+        {
+            "id": 5,
+            "name": "Garden Oasis"
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 3,
+            "flowerId": 5,
+            "price": 8.21
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 4,
+            "price": 4.75
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 1,
+            "price": 6.89
+        },
+        {
+            "id": 4,
+            "nurseryId": 5,
+            "flowerId": 2,
+            "price": 9.42
+        },
+        {
+            "id": 5,
+            "nurseryId": 4,
+            "flowerId": 3,
+            "price": 3.56
+        },
+        {
+            "id": 6,
+            "nurseryId": 1,
+            "flowerId": 2,
+            "price": 7.28
+        },
+        {
+            "id": 7,
+            "nurseryId": 3,
+            "flowerId": 4,
+            "price": 5.14
+        },
+        {
+            "id": 8,
+            "nurseryId": 2,
+            "flowerId": 5,
+            "price": 4.93
+        },
+        {
+            "id": 9,
+            "nurseryId": 4,
+            "flowerId": 1,
+            "price": 8.77
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 3,
+            "price": 6.11
+        },
+        {
+            "id": 11,
+            "nurseryId": 2,
+            "flowerId": 4,
+            "price": 3.89
+        },
+        {
+            "id": 12,
+            "nurseryId": 1,
+            "flowerId": 5,
+            "price": 9.05
+        },
+        {
+            "id": 13,
+            "nurseryId": 3,
+            "flowerId": 1,
+            "price": 5.67
+        },
+        {
+            "id": 14,
+            "nurseryId": 5,
+            "flowerId": 4,
+            "price": 7.84
+        },
+        {
+            "id": 15,
+            "nurseryId": 4,
+            "flowerId": 2,
+            "price": 3.45
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Flower Express Distributors",
+            "percentMarkup": 10
+        },
+        {
+            "id": 2,
+            "name": "Petals Wholesale",
+            "percentMarkup": 8.5
+        },
+        {
+            "id": 3,
+            "name": "Bouquet Supply Co.",
+            "percentMarkup": 9.25
+        },
+        {
+            "id": 4,
+            "name": "Global Floral Distributors",
+            "percentMarkup": 8.75
+        },
+        {
+            "id": 5,
+            "name": "Floral Harmony Wholesale",
+            "percentMarkup": 7.85
+        }
+    ],
+    "nurseryDistributors": [
+        {
+            "id": 1,
+            "nurseryId": 3,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 5,
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 4,
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "distributorId": 5
+        },
+        {
+            "id": 5,
+            "nurseryId": 1,
+            "distributorId": 4
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "distributorId": 5
+        },
+        {
+            "id": 7,
+            "nurseryId": 2,
+            "distributorId": 4
+        },
+        {
+            "id": 8,
+            "nurseryId": 1,
+            "distributorId": 3
+        },
+        {
+            "id": 9,
+            "nurseryId": 4,
+            "distributorId": 2
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "distributorId": 3
+        },
+        {
+            "id": 11,
+            "nurseryId": 3,
+            "distributorId": 2
+        },
+        {
+            "id": 12,
+            "nurseryId": 4,
+            "distributorId": 5
+        },
+        {
+            "id": 13,
+            "nurseryId": 1,
+            "distributorId": 2
+        },
+        {
+            "id": 14,
+            "nurseryId": 5,
+            "distributorId": 1
+        },
+        {
+            "id": 15,
+            "nurseryId": 2,
+            "distributorId": 3
+        },
+        {
+            "id": 16,
+            "nurseryId": 4,
+            "distributorId": 3
+        },
+        {
+            "id": 17,
+            "nurseryId": 1,
+            "distributorId": 5
+        },
+        {
+            "id": 18,
+            "nurseryId": 3,
+            "distributorId": 4
+        },
+        {
+            "id": 19,
+            "nurseryId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 20,
+            "nurseryId": 5,
+            "distributorId": 4
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Blooms & Blossoms",
+            "address": "123 Main St, Cityville",
+            "percentMarkup": 4.5,
+            "distributorId": 2
+        },
+        {
+            "id": 2,
+            "name": "Petals Galore",
+            "address": "456 Elm St, Townsville",
+            "percentMarkup": 5,
+            "distributorId": 4
+        },
+        {
+            "id": 3,
+            "name": "Flower Haven Shop",
+            "address": "789 Oak St. Villagetown",
+            "percentMarkup": 3.75,
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "name": "Garden Delights",
+            "address": "987 Pine St, Nature City",
+            "percentMarkup": 4,
+            "distributorId": 3
+        },
+        {
+            "id": 5,
+            "name": "City Florals",
+            "address": "654 Maple St, Urbanville",
+            "percentMarkup": 4.25,
+            "distributorId": 5
+        },
+        {
+            "id": 6,
+            "name": "Blossom Boutique",
+            "address": "321 Cedar St, Bloomington",
+            "percentMarkup": 5,
+            "distributorId": 2
+        },
+        {
+            "id": 7,
+            "name": "Rose Petal Emporium",
+            "address": "567 Birch St, Rosetown",
+            "percentMarkup": 4,
+            "distributorId": 1
+        },
+        {
+            "id": 8,
+            "name": "Springtime Blooms",
+            "address": "876 Willow St, Blossomville",
+            "percentMarkup": 4.25,
+            "distributorId": 4
+        },
+        {
+            "id": 9,
+            "name": "Floral Elegance",
+            "address": "234 Fir St, Elegant City",
+            "percentMarkup": 3.75,
+            "distributorId": 3
+        },
+        {
+            "id": 10,
+            "name": "Sunshine Flowers",
+            "address": "789 Poplar St, Sunnyville",
+            "percentMarkup": 4,
+            "distributorId": 5
+        }
+    ]
+}
